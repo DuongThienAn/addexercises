@@ -1,0 +1,3 @@
+Dùng useReducer để quản lý state theo từng hành động.
+State được chia rõ thành các trạng thái giúp UI dễ kiểm soát.
+Reducer là pure function nên logic xử lý rõ ràng và dễ mở rộng.

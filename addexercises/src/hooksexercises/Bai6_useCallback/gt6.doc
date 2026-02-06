@@ -1,0 +1,3 @@
+Dùng React.memo để tránh render lại TodoItem khi props không đổi.
+useCallback giúp giữ nguyên reference của hàm onDelete khi component cha render lại.
+Nhờ đó component con không bị render lại không cần thiết.

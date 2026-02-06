@@ -1,0 +1,4 @@
+Do có nhiều trường nên gộp state thành một object.
+Khi người dùng nhập liệu, tạo object mới bằng spread operator rồi cập nhật field cần thay đổi.
+Lý do là React chỉ render lại khi reference của state thay đổi.
+Nếu sửa trực tiếp state cũ thì React không nhận ra sự thay đổi và UI có thể không cập nhật đúng.

@@ -1,0 +1,3 @@
+Dùng useMemo để ghi nhớ danh sách sau khi lọc và tổng tiền.
+Danh sách và tổng tiền chỉ được tính lại khi keyword hoặc danh sách lọc thay đổi.
+Nếu không dùng useMemo thì mỗi lần render sẽ phải tính toán lại dù dữ liệu không đổi.

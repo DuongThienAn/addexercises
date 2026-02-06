@@ -1,0 +1,3 @@
+Dùng useRef để lưu intervalId thay vì useState.
+Vì intervalId không ảnh hưởng đến UI nên không cần render lại khi nó thay đổi.
+useRef giúp lưu giá trị xuyên suốt vòng đời component mà không gây re-render.

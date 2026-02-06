@@ -1,0 +1,3 @@
+Dùng useEffect để tạo side effect là cập nhật thời gian mỗi giây.
+Effect chỉ chạy một lần khi component mount vì dependency array rỗng.
+Khi component unmount, cleanup interval để tránh memory leak.
